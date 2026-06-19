@@ -15,6 +15,13 @@ body {
     align-items: center;
 }
 
+.main {
+    padding: 20px;
+
+    background-color: rgb(61, 61, 61);
+    border-radius: 10px;
+}
+
 .card {
     background-color: black;
     padding: 5px;
@@ -49,10 +56,10 @@ body {
 
     transition: 10s;
 }
-
+/* 
 .card:hover image {
     transform: rotate(360deg) scale(5);
-}
+} */
 
 
 .card button {
