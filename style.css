@@ -43,15 +43,17 @@ body {
     font-family: sans-serif;
 }
 
-.card image {
+.card image{
     width: 60px;
     height: 60px;
+
+    transition: 10s;
 }
 
-.card image:hover {
-    width: 70px;
-    height: 70px;
+.card:hover image {
+    transform: rotate(360deg) scale(5);
 }
+
 
 .card button {
     background-color: brown;
