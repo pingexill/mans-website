@@ -20,6 +20,14 @@ body {
     transform: scale(1.2);
 }
 
+.container image{
+    transition: 10s;
+}
+
+.container:hover image {
+    transform: rotate(360deg) scale(5);
+}
+
 .container h1:hover,
 .container h2:hover {
     font-family: sans-serif;
