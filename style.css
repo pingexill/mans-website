@@ -18,8 +18,15 @@ body {
 .main {
     padding: 20px;
 
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(26, 26, 26);
     border-radius: 10px;
+
+    width: 80%;
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -50,12 +57,13 @@ body {
     font-family: sans-serif;
 }
 
-.card image{
+.card image {
     width: 60px;
     height: 60px;
 
     transition: 10s;
 }
+
 /* 
 .card:hover image {
     transform: rotate(360deg) scale(5);
@@ -67,7 +75,7 @@ body {
     color: white;
     border: 0;
     border-radius: 6px;
-    padding: 5px 15px 5px ;
+    padding: 5px 15px 5px;
     margin-top: 10px;
 
     transition: 0.3s;
@@ -82,4 +90,19 @@ body {
     background-color: rgb(255, 255, 255);
     color: brown;
     transform: scale(1.2);
+}
+
+.ahref .card {
+    text-decoration: none;
+    color: white;
+    height: 200px;
+
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.ahref:hover {
+    font-family: sans-serif;
+    transform: scale(1.4);
+    color: brown;
 }
